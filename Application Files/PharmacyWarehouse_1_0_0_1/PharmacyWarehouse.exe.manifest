@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PharmacyWarehouse.exe" version="1.0.0.1" publicKeyToken="958dabe071c3ce34" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PharmacyWarehouse" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PharmacyWarehouse.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="6.9.8.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PharmacyWarehouse.exe" size="1517056">
+      <assemblyIdentity name="PharmacyWarehouse" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yfhZZoTahet/FdNM7YF4eup88iIe+Ul6rNXogLpwzS8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PharmacyWarehouse.exe.config" size="2106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3xzGdrTqflDjwlNuBHUxqiO2IeCsLggKSALT1IDxZiE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LIMITLESS\Анна" issuerKeyHash="61c0b757ba0da994910d695b75aed6b3c8a52ef6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>F7ErPBvLxtzv1RIKhMbkO8QPCv0FXOkzURMGjY+y8ws=</DigestValue></Reference></SignedInfo><SignatureValue>HuPTttcykLV+4GH7rbkdWQbBUplN3mzX+WtJqphqXW258BZ7gp7X5Y2SqOddYBtRllwnVJ5ty8LBUqA8D9I1TRxeE5tbnmJP9li22NYImx+zg7oKstgE6BJZMV3Jdc8A+wC2QyGpB9H5vtoHlInkvtsOgOM98Bm54VKPH0vdRco=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o7+AB963I6V5mQUzKa2TBoaUyJV6Z2QOty6J1z30gp5TaAeIsvs+u2mc+04HH1GbtDqX0esF1ia1iUtnALwdIyu6l99mZ/zFBdUIaDmlFtOeIWzK5eVDEnpG+lXMSB+ODBksXz0o2YFEdG3OWrxc6gmTBNoGifYVrxmyl3/HRms=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0bf3b28f8d06135133e95c05fd0a0fc43be4c6840a12d5efdcc6cb1b3c2bb117" Description="" Url=""><as:assemblyIdentity name="PharmacyWarehouse.exe" version="1.0.0.1" publicKeyToken="958dabe071c3ce34" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LIMITLESS\Анна</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>O02Af7Oh8GzSeIcpUTwBHjwstwmRbof6/fam+3T07j8=</DigestValue></Reference></SignedInfo><SignatureValue>NAjArDG0b99WhbWmh6VjGrHvjq6QeQOsLqpfJ60D1eZOYecNI/OHbUXCxNHnsKj1bqlgGyvqi6NI7ZsXphixu653M5suRhL/6+2Nt3CMxhR5l7uWwl+7GXeF4svoT2hcPH/oCaKaqrBLbXY/Bsjsj+CFCly0eujMvYAsbFZI6mQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o7+AB963I6V5mQUzKa2TBoaUyJV6Z2QOty6J1z30gp5TaAeIsvs+u2mc+04HH1GbtDqX0esF1ia1iUtnALwdIyu6l99mZ/zFBdUIaDmlFtOeIWzK5eVDEnpG+lXMSB+ODBksXz0o2YFEdG3OWrxc6gmTBNoGifYVrxmyl3/HRms=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQRt9AUkGFq7lH131QvDR1BTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATABJAE0ASQBUAEwARQBTAFMAXAQQBD0EPQQwMB4XDTE1MTIyMzA3MTQ1MloXDTE2MTIyMjEzMTQ1MlowJzElMCMGA1UEAx4cAEwASQBNAEkAVABMAEUAUwBTAFwEEAQ9BD0EMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAo7+AB963I6V5mQUzKa2TBoaUyJV6Z2QOty6J1z30gp5TaAeIsvs+u2mc+04HH1GbtDqX0esF1ia1iUtnALwdIyu6l99mZ/zFBdUIaDmlFtOeIWzK5eVDEnpG+lXMSB+ODBksXz0o2YFEdG3OWrxc6gmTBNoGifYVrxmyl3/HRmsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCO8n4qOtHW5LyzplG7xXag3IqYnGD1KQfQm+sQ65FNlYVLEL8uCyjhcsf95fIgpy8JOht9e3/F1oQq7LYqQRF4T77Zfw4P854h1WkBEKGFvDNYVlFUEOa6YcEnBhDR/gbHnk3n4rdary4CeLg2cEz+k0bjRvvVgRjq1vx1jTxdNg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
